@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LKPD — Refleksi terhadap Garis y = x, y = –x, x = h, dan y = k (Taksonomi SOLO)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", Calibri, Arial, sans-serif; background: #eef2f7; color: #1e293b; font-size: 14.5px; line-height: 1.75; }
+  .kertas { max-width: 820px; margin: 24px auto; background: #fff; padding: 48px 52px; box-shadow: 0 4px 24px rgba(0,0,0,.1); border-radius: 6px; }
+  h1 { text-align: center; font-size: 19px; letter-spacing: .5px; }
+  h1.sub { font-size: 15px; margin-top: 4px; }
+  .identitas-doc { margin: 14px 0 4px; font-size: 14px; }
+  table.ident { width: 100%; border-collapse: collapse; margin: 10px 0 6px; font-size: 13.5px; }
+  table.ident td { border: 1px solid #94a3b8; padding: 9px 10px; }
+  table.ident td:first-child { font-weight: 700; background: #f1f5f9; width: 32%; }
+  h2 { font-size: 15px; color: #1f497d; margin: 22px 0 8px; }
+  ul, ol { margin: 4px 0 8px 24px; }
+  li { margin-bottom: 4px; }
+  .rumus { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 14px; }
+  .rumus th, .rumus td { border: 1px solid #475569; padding: 8px 12px; text-align: left; }
+  .rumus th { background: #1f497d; color: #fff; }
+  .soal { font-weight: 700; margin: 10px 0 4px; }
+  .level { font-size: 12.5px; color: #64748b; margin-bottom: 6px; }
+  .jawab { border-bottom: 1px dotted #94a3b8; height: 30px; margin: 2px 0; }
+  .batas { background: #fef3c7; border: 1px solid #f59e0b; border-radius: 8px; padding: 10px 14px; margin: 10px 0; font-size: 13.5px; color: #92400e; }
+  .refleksi td:first-child { width: auto; }
+  .refleksi td:last-child { width: 60px; text-align: center; }
+  .kunci { background: #f0fdf4; border: 1px solid #86efac; border-radius: 8px; padding: 12px 16px; margin-top: 8px; font-size: 13.5px; }
+  .kunci li { margin-bottom: 6px; }
+  .toolbar { max-width: 820px; margin: 16px auto 0; text-align: right; padding: 0 4px; }
+  .toolbar button { background: #1f497d; color: #fff; border: none; padding: 10px 22px; font-size: 14px; border-radius: 8px; cursor: pointer; }
+  .toolbar button:hover { background: #16365e; }
+  @media print {
+    body { background: #fff; }
+    .toolbar { display: none; }
+    .kertas { box-shadow: none; margin: 0; max-width: none; padding: 0; border-radius: 0; }
+    .bab { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="toolbar"><button onclick="window.print()">🖨️ Cetak / Simpan PDF</button></div>
+
+<div class="kertas">
+
+<h1>LEMBAR KERJA PESERTA DIDIK (LKPD)</h1>
+<h1 class="sub">REFLEKSI TERHADAP GARIS y = x, y = –x, x = h, DAN y = k<br>BERBASIS TAKSONOMI SOLO</h1>
+
+<div class="identitas-doc">
+  Mata Pelajaran : Matematika<br>
+  Materi Pokok &nbsp;&nbsp;&nbsp;: Transformasi Geometri – Refleksi terhadap Garis<br>
+  Kelas / Semester : IX / Ganjil<br>
+  Pendekatan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Pembelajaran Mendalam
+</div>
+
+<table class="ident">
+  <tr><td>Nama Peserta Didik</td><td></td><td style="font-weight:700;background:#f1f5f9">Kelas</td><td></td></tr>
+  <tr><td>No. Absen</td><td></td><td style="font-weight:700;background:#f1f5f9">Tanggal</td><td></td></tr>
+</table>
+
+<div class="bab">
+<h2>A. Tujuan Pembelajaran</h2>
+<ul>
+  <li>Menentukan koordinat bayangan suatu titik hasil pencerminan terhadap garis y = x, y = –x, x = h, dan y = k.</li>
+  <li>Menentukan garis cermin apabila diketahui suatu titik dan bayangannya.</li>
+  <li>Menganalisis sifat-sifat pencerminan dan menerapkannya dalam pemecahan masalah.</li>
+</ul>
+</div>
+
+<div class="bab">
+<h2>B. Petunjuk Penggunaan</h2>
+<ul>
+  <li>Bacalah ringkasan materi dengan saksama sebelum mengerjakan kegiatan.</li>
+  <li>Kerjakan Kegiatan 1 sampai dengan Kegiatan 4 secara berurutan, dari tingkat yang paling sederhana menuju yang paling menantang.</li>
+  <li>Tuliskan jawabanmu pada tempat yang tersedia dengan langkah yang jelas.</li>
+  <li>Diskusikan dengan teman sekelompokmu apabila menemui kesulitan, kemudian presentasikan hasilnya.</li>
+</ul>
+</div>
+
+<div class="bab">
+<h2>C. Ringkasan Materi</h2>
+<p>Refleksi (pencerminan) adalah transformasi yang memindahkan setiap titik pada bidang dengan menggunakan sifat bayangan cermin. Sifat-sifat pencerminan: (1) jarak setiap titik terhadap garis cermin sama dengan jarak bayangannya terhadap garis cermin; (2) bangun bayangan kongruen dengan bangun semula (ukuran dan bentuk sama, hanya orientasinya berubah).</p>
+<p style="margin-top:8px"><b>Rumus bayangan titik A(x, y):</b></p>
+<table class="rumus">
+  <tr><th>Pencerminan</th><th>Bayangan A(x, y)</th></tr>
+  <tr><td>Terhadap garis y = x</td><td>A′(y, x)</td></tr>
+  <tr><td>Terhadap garis y = –x</td><td>A′(–y, –x)</td></tr>
+  <tr><td>Terhadap garis x = h</td><td>A′(2h – x, y)</td></tr>
+  <tr><td>Terhadap garis y = k</td><td>A′(x, 2k – y)</td></tr>
+</table>
+</div>
+
+<div class="bab">
+<h2>D. Kegiatan 1 — Tingkat Unistruktural (satu aspek)</h2>
+<p class="level">Pada tingkat ini kamu hanya perlu menggunakan SATU aspek/rumus pencerminan.</p>
+<p class="soal">1. Titik A(4, –1) dicerminkan terhadap garis y = x. Tentukan koordinat bayangannya!</p>
+<div class="jawab"></div><div class="jawab"></div>
+</div>
+
+<div class="bab">
+<h2>E. Kegiatan 2 — Tingkat Multistruktural (beberapa aspek terpisah)</h2>
+<p class="level">Pada tingkat ini kamu menggunakan BEBERAPA rumus pencerminan, masing-masing berdiri sendiri.</p>
+<p class="soal">2. Titik P(3, –5) dicerminkan terhadap:</p>
+<ul style="list-style:none">
+  <li>a. garis y = x</li>
+  <li>b. garis y = –x</li>
+  <li>c. garis x = 2</li>
+  <li>d. garis y = –1</li>
+</ul>
+<p class="soal">Tentukan koordinat bayangan untuk masing-masing pencerminan di atas!</p>
+<div class="jawab"></div><div class="jawab"></div><div class="jawab"></div><div class="jawab"></div>
+</div>
+
+<div class="bab">
+<h2>F. Kegiatan 3 — Tingkat Relasional (menghubungkan beberapa aspek)</h2>
+<p class="level">Pada tingkat ini kamu menghubungkan beberapa konsep menjadi satu kesatuan yang utuh.</p>
+<p class="soal">3. Segitiga ABC dengan A(2, 1), B(5, 3), dan C(3, 6) dicerminkan terhadap garis y = –x sehingga diperoleh bayangan A′B′C′. Bayangan tersebut kemudian dicerminkan lagi terhadap garis x = 4 sehingga diperoleh A″B″C″.</p>
+<ul style="list-style:none">
+  <li>a. Tentukan koordinat titik A′, B′, dan C′!</li>
+  <li>b. Tentukan koordinat titik A″, B″, dan C″!</li>
+  <li>c. Jelaskan hubungan antara bangun ABC, A′B′C′, dan A″B″C″ berdasarkan sifat-sifat pencerminan (jarak terhadap garis cermin dan kekongruenan bangun)!</li>
+</ul>
+<div class="jawab"></div><div class="jawab"></div><div class="jawab"></div>
+<div class="jawab"></div><div class="jawab"></div><div class="jawab"></div>
+</div>
+
+<div class="bab">
+<h2>G. Kegiatan 4 — Tingkat Abstrak Diperluas (generalisasi dan kreasi)</h2>
+<p class="level">Pada tingkat ini kamu merumuskan pola umum dan menerapkannya pada situasi baru.</p>
+<ul style="list-style:none">
+  <li><b>4a.</b> Titik P(x, y) dicerminkan terhadap garis y = x, kemudian hasilnya dicerminkan lagi terhadap garis y = –x. Rumuskan koordinat bayangan akhirnya dalam x dan y! Selidikilah: transformasi tunggal apakah yang setara dengan dua pencerminan berurutan tersebut? Jelaskan penemuanmu!</li>
+  <li><b>4b.</b> Buatlah sebuah soal pencerminan versimu sendiri (terhadap garis y = x, y = –x, x = h, atau y = k) lengkap dengan penyelesaiannya!</li>
+</ul>
+<div class="jawab"></div><div class="jawab"></div><div class="jawab"></div>
+<div class="jawab"></div><div class="jawab"></div><div class="jawab"></div>
+</div>
+
+<div class="bab">
+<h2>H. Refleksi Diri</h2>
+<p>Beri tanda centang (✓) pada pernyataan yang sesuai dengan kemampuanmu setelah mengerjakan LKPD ini!</p>
+<table class="rumus refleksi">
+  <tr><th>Pernyataan</th><th>✓</th></tr>
+  <tr><td>Saya dapat menentukan bayangan satu titik hasil satu kali pencerminan terhadap garis.</td><td></td></tr>
+  <tr><td>Saya dapat menentukan bayangan satu titik hasil beberapa pencerminan terhadap garis yang berbeda.</td><td></td></tr>
+  <tr><td>Saya dapat menghubungkan konsep pencerminan berurutan untuk menganalisis suatu bangun dan sifat-sifatnya.</td><td></td></tr>
+  <tr><td>Saya dapat merumuskan pola umum pencerminan dan membuat soal sendiri.</td><td></td></tr>
+</table>
+</div>
+
+</div><!-- /kertas -->
+</body>
+</html>
